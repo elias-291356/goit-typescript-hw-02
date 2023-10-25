@@ -22,6 +22,6 @@ function calc(num1, num2) {
 // }
 calc(1, 2);
 function customError() {
-    throw new Error('Error');
+    throw new Error("Error");
 }
 //# sourceMappingURL=6.js.map

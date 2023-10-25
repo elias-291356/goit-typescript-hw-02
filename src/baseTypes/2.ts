@@ -6,7 +6,7 @@
 // anything = {};
 // Який тип ви надаєте змінній anything в TypeScript, щоб зберегти її гнучкість?
 
-let anything: number | string | {};
+let anything: any;
 
 anything = -20;
 anything = "Text";

@@ -10,5 +10,9 @@
 let some;
 some = "Text";
 let str;
-str = some;
+if (typeof some === "string") {
+    str = some;
+}
+else {
+}
 //# sourceMappingURL=3.js.map

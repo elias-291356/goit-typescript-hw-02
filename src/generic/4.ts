@@ -1,18 +1,15 @@
 // Завдання 4
 // Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 
-type PageProps = {
+type Interface = {
   title: string;
-};
-const page: PageProps = {
-  title: "the page",
 };
 
 class Component<T> {
   constructor(public props: T) {}
 }
 
-class Page extends Component<PageProps> {
+class Page extends Component<Interface> {
   pageInfo() {
     console.log(this.props.title);
   }

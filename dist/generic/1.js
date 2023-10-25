@@ -6,7 +6,7 @@ function getPromise() {
     const promise = new Promise((resolve) => {
         resolve(["Text", 50]);
     });
-    return promise;
+    return promise.then(([string, number]) => string || number);
 }
 getPromise().then((data) => {
     console.log(data);
