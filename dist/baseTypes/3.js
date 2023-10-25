@@ -13,6 +13,4 @@ let str;
 if (typeof some === "string") {
     str = some;
 }
-else {
-}
 //# sourceMappingURL=3.js.map

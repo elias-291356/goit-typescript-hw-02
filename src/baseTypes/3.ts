@@ -14,5 +14,4 @@ let str: string;
 
 if (typeof some === "string") {
   str = some;
-} else {
 }
